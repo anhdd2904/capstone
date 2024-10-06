@@ -1,4 +1,4 @@
-# URL where the application is hosted: https://capstone-3-final.onrender.com
+# URL where the application is hosted: https://capstone-bw29.onrender.com
 # Instructions to set up authentication:
 ## Because my project only has a restful API part, the authentication part will be a little different from previous projects.
 ## Auth0 setup:
