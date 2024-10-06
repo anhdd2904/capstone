@@ -10,11 +10,11 @@ https://fsnd-kml.auth0.com/authorize?audience=capstone&response_type=token&clien
 https://fsnd-kml.auth0.com/.well-known/jwks.json
 """
 
-AUTH0_DOMAIN = os.environ['AUTH0_DOMAIN']
-#AUTH0_DOMAIN = 'dev-2jdum4ss1zy7wwvk.us.auth0.com'
+#AUTH0_DOMAIN = os.environ['AUTH0_DOMAIN']
+AUTH0_DOMAIN = 'dev-2jdum4ss1zy7wwvk.us.auth0.com'
 ALGORITHMS = ['RS256']
-API_AUDIENCE = os.environ['API_AUDIENCE']
-#API_AUDIENCE = 'flask_app'
+#API_AUDIENCE = os.environ['API_AUDIENCE']
+API_AUDIENCE = 'flask_app'
 
 # AuthError Exception
 '''
