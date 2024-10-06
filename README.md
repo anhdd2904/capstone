@@ -30,8 +30,9 @@ After creating the application, Auth0 will provide you with a **Client ID** and 
 - **Client Secret**: A secret key used to authenticate your application.
 
 ### 4. Configure API Audience
+When requesting a token, you will need to provide an API **Audience** to specify which API the token is intended for. You can find or define the API audience in the **APIs** section of the Auth0 dashboard.
 
-In my project, i set Audience default id : flask_app
+- Example Audience: `https://<your-api-domain>/api`
 
 
 
